@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.test img {
+    opacity: 1 !important;
+}
+
+.nav-logo-img {
+    height: 50px;
+    width: 70px;
+}
+
+.name1 {
+    font-family: Caveat;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.name2 {
+    font-family: Caveat;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 33px;
+
+
+}
+
+.dove {
+    font-size: 35px;
+}
+
+
+
+.invitation-back {
+
+    background-size: cover;
+    background-color: lightblue;
+    text-align: center;
+
+}
+
+.invi-tag {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    background-color: lightblue;
+    font-family: caveat;
+    text-shadow: 0 0 20px #ffff66;
+}
+
+.invitation-para {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: caveat;
+}
+
+.invitation-text {
+    text-decoration: underline;
+    text-shadow: 0 0 20px #ffff66;
+}
+
+.line {
+    font-weight: bold;
+    background-color: black;
+}
+
+
+
+.events-back {
+    background-size: cover;
+    background-color: #ffffe6;
+}
+
+.events {
+    text-decoration: underline;
+    font-family: Caveat;
+    font-size: 35px;
+    color: #4d4d00;
+    font-weight: bold;
+}
+
+.event-head {
+    font-weight: bold;
+    font-family: Caveat;
+    font-size: 30px;
+    color: #4d4d00;
+}
+
+.event-date-time {
+    font-family: Caveat;
+    font-size: 25px;
+    color: #999900;
+}
+
+.event-img {
+    text-align: center;
+    height: 150px;
+    width: 200px;
+}
+
+.location {
+    text-decoration: underline;
+    font-family: Caveat;
+    font-size: 20px;
+    color: orange;
+    padding: 10px;
+}
+
+.contact-back {
+    background-color: #4d4d00;
+}
+
+.contact-tag {
+    font-family: Roboto;
+    font-size: 25px;
+    color: #999900;
+    text-decoration: underline;
+}
+
+.name-number {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #999900;
+}
+
+.close {
+    font-size: 1.5rem;
+}
+
+.col-12 img {
+    opacity: 0.7;
+    cursor: pointer;
+    width: 100%;
+}
+
+.col-12 img:hover {
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left12_first,
+.left12_last {
+    padding: 10px;
+}
+
+span.love_quote {
+    font-style: italic;
+    background: url(https://7vowsofsukrish.xyz/public/images/heart_icon.png) no-repeat left;
+    padding: 10px 0 10px 35px;
+    margin: 15px 20px;
+    display: block;
+}
+
+.back,
+span.names_titles,
+span.subtitle {
+    color: #b5af47;
+}
+
+.about_content h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 26px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+span.names_titles {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    padding: 0 0 10px 0;
+}
+
+.about_content p {
+    padding: 0px 10px 0 10px;
+}
+
+.about_pic_container {
+    position: relative;
+}
+
+.timercolor {
+    color: #FFFFFF;
+    padding-top: 15px !important;
+    font-size: 25px;
+}
+
+.about_pic {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.about_pic img {
+    width: 100%;
+    display: block;
+    transition: opacity 0.7s, transform 0.7s;
+    -webkit-transition: opacity 0.7s, -webkit-transform 0.7s;
+}
+
+.about_pic img::before,
+.about_pic img::after {
+    transition: opacity 0.7s, transform 0.7s;
+    -webkit-transition: opacity 0.7s, -webkit-transform 0.7s;
+}
+
+.about_pic_container:hover .about_pic img {
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+
+span.about_picframe {
+    border: 1px #fff solid;
+    display: block;
+    width: 94%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 90%;
+    margin: 3%;
+    z-index: 777;
+    opacity: 0.4;
+    transition: opacity 0.7s, transform 0.7s;
+    -webkit-transition: opacity 0.7s, -webkit-transform 0.7s;
+}
+
+span.about_picframe::after,
+span.about_picframe::before {
+    transition: opacity 0.7s, transform 0.7s;
+    -webkit-transition: opacity 0.7s, -webkit-transform 0.7s;
+}
+
+a.thumb_read_more {
+    position: relative;
+    z-index: 9999;
+    display: block;
+    top: -20px;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 0;
+}
+
+a.thumb_read_more:hover {
+    background-color: #5d594d;
+}
+
+a.thumb_read_more:hover {
+    background-color: #5d594d;
+}
+
+.no-touch .back:hover,
+.countdown_container,
+a.thumb_read_more,
+.full_width_carousel .left14 h3,
+.full_width_carousel .left14_last h3,
+input.form_submit_contact,
+input[type="checkbox"]+label:before,
+input[type="checkbox"]:checked+label:before {
+    background-color: #b5af47;
+}
+
+a,
+blockquote,
+span.love_quote,
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span,
+span.post_date,
+.latest_posts .left13:hover .post_info h3 a,
+.latest_posts .left13_last:hover .post_info h3 a,
+.checkbox_container label span,
+.footer_names {
+    color: #999700;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.gallery {
+    font-family: Caveat;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.camera-icon {
+    font-size: 23px;
+}
+
+.creat {
+    font-family: Roboto;
+    font-size: 15px;
+    color: grey;
+    padding-top: 20px;
+}
